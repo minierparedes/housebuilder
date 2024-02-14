@@ -7,11 +7,13 @@
     "lint": "eslint src --fix  --ext .js",
     "format": "prettier src --write --ignore-unknown",
     "stylelint": "stylelint 'src/**/*.css'",
-    "stylelint:fix": "stylelint 'src/**/*.css' --fix"
+    "stylelint:fix": "stylelint 'src/**/*.css' --fix",
+    "linthtml": "linthtml 'src/**/*.html'"
   },
   "lint-staged": {
     "*.{.js,ts}": "pnpm lint",
-    "*.css": "pnpm stylelint"
+    "*.css": "pnpm stylelint",
+    "*.html": "pnpm linthtml"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +24,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-prettier": "^5.1.3",
+    "htmlhint": "^1.1.4",
     "husky": "^9.0.10",
     "lint-staged": "^15.2.2",
     "stylelint": "^16.2.1",
