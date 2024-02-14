@@ -8,12 +8,12 @@
     "format": "prettier src --write --ignore-unknown",
     "stylelint": "stylelint 'src/**/*.css'",
     "stylelint:fix": "stylelint 'src/**/*.css' --fix",
-    "linthtml": "linthtml 'src/**/*.html'"
+    "htmllint": "htmlhint 'src/**/*.html'"
   },
   "lint-staged": {
     "*.{.js,ts}": "pnpm lint",
     "*.css": "pnpm stylelint",
-    "*.html": "pnpm linthtml"
+    "*.html": "pnpm htmllint"
   },
   "keywords": [],
   "author": "",
