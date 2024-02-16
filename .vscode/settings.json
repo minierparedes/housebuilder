@@ -7,5 +7,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[HTML]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "project-hierarchy-explorer.ignorePatterns": [".git", "node_modules", "*.js.map"]
 }
