@@ -4,17 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/src/css/reset.css" rel="stylesheet" />
-    <link href="/src/css/utils.css" rel="stylesheet" />
     <link href="/src/css/style.css" rel="stylesheet" />
+    <link href="/src/css/components/header.css" rel="stylesheet" />
+    <link href="/src/css/utils.css" rel="stylesheet" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <nav></nav>
+    <header class="header container">
+      <nav class="menu-container">
+        <ul class="menu-links">
+          <li><img class="header-logo" src="/src/assets/home-logo.png" alt="company logo" /></li>
+          <li><a class="header-links" href="#home">ホーム</a></li>
+          <li><a class="header-links" href="#case-studies">制作事例</a></li>
+          <li><a class="header-links" href="#testimonials">お客様の声</a></li>
+          <li><a class="header-links" href="#faqs">よく頂く質問</a></li>
+        </ul>
+        <ul class="menu-contact">
+          <li><a class="contact-button" href="contact.html">お問い合わせ・資料請求</a></li>
+        </ul>
+        <button class="menu-nav-bars">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </nav>
     </header>
     <main>
       <section>
-        <div class="page-hero"></div>
+        <div class="hero"></div>
       </section>
       <section><div class="feature"></div></section>
       <section><div class="feature-list"></div></section>
