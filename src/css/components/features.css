@@ -9,6 +9,10 @@
   border: 1px dotted red;
 }
 
+.features-img-content {
+  border: 1px dotted red;
+}
+
 .features-content,
 .features-img {
   padding: 1rem;
@@ -85,7 +89,7 @@
   }
 
   .features-img {
-    width: 768px;
+    width: 48rem;
     height: auto;
   }
 }
