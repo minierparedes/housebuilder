@@ -1,6 +1,7 @@
 :root {
   --clr-red: #f00;
   --clr-orange600: #ea580c;
+  --clr-gray300: #c2c6cd;
   --clr-gray400: #4b5563ad;
   --clr-gray600: #4b5563;
   --clr-gray700: #374151;
@@ -8,6 +9,7 @@
   --clr-slate300: #fefefe;
   --clr-blue600: #2563eb;
   --clr-cyan700: #0369a1;
+  --clr-background: #626f78;
   --clr-button: #404e5a;
   --clr-button-hover: #5a6f81;
 

@@ -55,7 +55,7 @@
 
   .header-logo {
     display: block;
-    width: var(--size-10xl);
+    width: var(--size-8xl);
     height: auto;
   }
 
@@ -72,8 +72,25 @@
 }
 
 /* lg */
+@media (width >= 1024px) {
+  .header-links,
+  .contact-button {
+    font-size: var(--size-xs);
+  }
 
-/* @media (min-width: 1024px) {} */
+  .header-logo {
+    display: block;
+    width: var(--size-10xl);
+    height: auto;
+  }
+
+  .menu-contact {
+    align-items: center;
+    display: flex;
+    border: 1px dotted red;
+    list-style: none;
+  }
+}
 
 /* xl */
 
