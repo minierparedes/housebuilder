@@ -1,0 +1,13 @@
+.footer {
+  background-color: var(--clr-background);
+}
+
+.footer h3,
+.footer-nav {
+  color: var(--clr-slate50);
+}
+
+.footer h3 {
+  font-size: var(--size-xxs);
+  text-align: center;
+}
