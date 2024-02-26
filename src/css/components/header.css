@@ -124,7 +124,7 @@
   .contact-button {
     font-size: var(--size-xs);
     font-weight: 600;
-    color: var(--clr-orange600);
+    color: var(--clr-slate500);
     letter-spacing: -0.1em;
     text-decoration: none;
     transition: color 0.3s;
