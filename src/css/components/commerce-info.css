@@ -12,6 +12,7 @@
 
 .commerce-info p {
   margin-bottom: 1rem;
+  margin-left: 1rem;
   font-size: var(--size-sm);
 }
 
@@ -52,3 +53,31 @@
 .cms-info-img {
   margin-top: 1.5rem;
 }
+
+.cms-info {
+  margin-bottom: 2rem;
+}
+
+/* xs */
+
+/* @media (width >= 475px) {} */
+
+/* sm */
+
+/* @media (min-width: 640px) {} */
+
+/* md */
+
+/* @media (min-width: 768px) {} */
+
+/* lg */
+
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+
+/* @media (min-width: 1536px) {} */
