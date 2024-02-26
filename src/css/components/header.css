@@ -1,22 +1,95 @@
 .header {
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   display: flex;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  background-color: var(--clr-gray800);
 }
 
-.menu-links,
-.menu-contact {
+.menu-container {
+  width: 100%;
+  border: 1px dotted red;
+}
+
+.header-mobile-container {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.header-mobile-logo {
+  width: var(--size-8xl);
+  height: auto;
+  border: 1px dotted red;
+}
+
+.menu-links {
   display: none;
 }
 
-.menu-nav-bars {
-  display: block;
-  width: var(--size-2xl);
-  height: auto;
-  color: red;
+.menu-contact {
+  justify-content: center;
+  display: flex;
+  border: 1px dotted red;
+  list-style: none;
 }
+
+.contact-button {
+  text-decoration: none;
+}
+
+.menu-nav-bars {
+  width: var(--size-3xl);
+  height: auto;
+  color: var(--clr-slate500);
+  border: 1px dotted red;
+}
+
+/* xxs */
+
+/* @media (width >= 390px) {
+  .menu-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .header-logo {
+    width: var(--size-8xl);
+    height: auto;
+    border: 1px dotted red;
+  }
+
+  .menu-links {
+    display: none;
+  }
+
+  .menu-contact {
+    width: 100%;
+    text-align: center;
+    border: 1px dotted red;
+    list-style: none;
+  }
+
+  .contact-button {
+    text-decoration: none;
+  }
+
+  .menu-nav-bars {
+    width: var(--size-2xl);
+    height: auto;
+    color: red;
+    border: 1px dotted red;
+  }
+} */
+
+/* xs */
+
+/* @media (min-width: 475px) {} */
 
 /* sm */
 
@@ -24,6 +97,14 @@
 
 /* md */
 @media (width >= 768px) {
+  .header {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .menu-container {
     justify-content: space-between;
     display: flex;
@@ -43,7 +124,7 @@
   .contact-button {
     font-size: var(--size-xs);
     font-weight: 600;
-    color: var(--clr-orange600);
+    color: var(--clr-slate500);
     letter-spacing: -0.1em;
     text-decoration: none;
     transition: color 0.3s;
@@ -51,6 +132,10 @@
 
   .header-links:hover {
     color: var(--clr-gray600);
+  }
+
+  .header-mobile-container {
+    display: none;
   }
 
   .header-logo {
