@@ -12,6 +12,9 @@
   --clr-contact-button: #ffb300;
   --clr-button: #404e5a;
   --clr-button-hover: #5a6f81;
+  --clr-primary: #404e5a;
+  --clr-secondary: #626f78;
+  --clr-primary-text: #e6e7e8;
 
   /* sizes */
   --size-xxs: 0.5rem;

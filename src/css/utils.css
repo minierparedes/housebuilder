@@ -1,10 +1,10 @@
 /* xxs */
 
-/* @media (min-width: 390px) {} */
+/* @media screen and (width >= 390px)  */
 
 /* xs */
 
-/* @media (min-width: 475px) {} */
+/* @media screen and (width >= 480px)  */
 
 /* sm */
 
@@ -41,44 +41,76 @@
   background-color: var(--clr-button-hover);
 }
 
-.container {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  border: 1px dotted red;
-}
+/* xxs */
+@media screen and (width >= 390px) {
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border: 1px dotted red;
+  }
 
-.section {
-  margin-top: 5rem;
+  .section {
+    margin-top: 5rem;
+  }
 }
 
 /* xs */
-@media (width >= 475px) {
+@media screen and (width >= 480px) {
   .container {
-    max-width: 475px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border: 1px dotted red;
+  }
+
+  .section {
+    margin-top: 5rem;
   }
 }
 
 /* sm */
-@media (width >= 640px) {
+@media screen and (width >= 640px) {
   .container {
+    width: 100%;
     max-width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px dotted red;
+  }
+
+  .section {
+    margin-top: 5rem;
   }
 }
 
 /* md */
-@media (width >= 768px) {
+@media screen and (width >= 768px) {
   .container {
+    width: 100%;
     max-width: 768px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px dotted red;
+  }
+
+  .section {
+    margin-top: 5rem;
   }
 }
 
 /* lg */
-@media (width >= 1024px) {
+@media screen and (width >= 1024px) {
   .container {
+    width: 100%;
     max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px dotted red;
   }
 
   .section {
@@ -87,15 +119,30 @@
 }
 
 /* xl */
-@media (width >= 1280px) {
+@media screen and (width >= 1280px) {
   .container {
+    width: 100%;
     max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px dotted red;
+  }
+
+  .section {
+    margin-top: 5rem;
   }
 }
 
 /* 2xl */
-@media (width >= 1536px) {
+@media screen and (width >= 1536px) {
   .container {
     max-width: 1536px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px dotted red;
+  }
+
+  .section {
+    margin-top: 5rem;
   }
 }
