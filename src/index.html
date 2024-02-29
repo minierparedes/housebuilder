@@ -10,11 +10,20 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header container">
-      <nav class="menu-container">
-        <div class="header-mobile-container">
-          <img class="header-mobile-logo" src="/src/assets/home-logo.png" alt="company logo" />
-          <button class="menu-nav-bars">
+    <header class="header">
+      <div class="header-content container">
+        <img class="header-logo" src="/src/assets/home-logo.png" alt="company logo" />
+        <div class="header-container">
+          <img class="header-logo-mobile" src="/src/assets/home-logo.png" alt="company logo" />
+          <nav class="nav-container">
+            <ul>
+              <li><a href="#home">ホーム</a></li>
+              <li><a href="#case-studies">制作事例</a></li>
+              <li><a href="#testimonials">お客様の声</a></li>
+              <li><a href="#faqs">よく頂く質問</a></li>
+            </ul>
+          </nav>
+          <button class="hamburger-btn">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
               <path
                 fill-rule="evenodd"
@@ -24,17 +33,12 @@
             </svg>
           </button>
         </div>
-        <ul class="menu-links">
-          <li><img class="header-logo" src="/src/assets/home-logo.png" alt="company logo" /></li>
-          <li><a class="header-links" href="#home">ホーム</a></li>
-          <li><a class="header-links" href="#case-studies">制作事例</a></li>
-          <li><a class="header-links" href="#testimonials">お客様の声</a></li>
-          <li><a class="header-links" href="#faqs">よく頂く質問</a></li>
-        </ul>
-        <ul class="menu-contact">
-          <li><a class="contact-button" href="contact.html">お問い合わせ・資料請求</a></li>
-        </ul>
-      </nav>
+        <div class="contact-btn-container">
+          <ul class="contact-btn">
+            <li><a href="contact.html">お問い合わせ・資料請求</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
       <section><div class="hero"></div></section>

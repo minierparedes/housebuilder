@@ -4,6 +4,7 @@
   --clr-gray600: #4b5563;
   --clr-gray700: #374151;
   --clr-gray800: #404e5a;
+  --clr-gray900: #313c46;
   --clr-slate50: #f8fafc;
   --clr-slate300: #fefefe;
   --clr-slate500: #e6e7e8;
@@ -20,6 +21,7 @@
   --size-xxs: 0.5rem;
   --size-xs: 0.75rem;
   --size-sm: 0.875rem;
+  --size-md: 0.9rem;
   --size-base: 1rem;
   --size-lg: 1.125rem;
   --size-xl: 1.25rem;
@@ -45,13 +47,4 @@ html {
 body {
   color: var(--clr-gray600);
   background-color: var(--clr-slate300);
-}
-
-button {
-  display: inline-block;
-  padding: 0;
-  color: inherit;
-  border: none;
-  background: none;
-  cursor: pointer;
 }

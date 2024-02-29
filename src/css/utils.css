@@ -1,3 +1,5 @@
+/* stylelint-disable media-feature-range-notation */
+
 /* xxs */
 
 /* @media screen and (width >= 390px)  */
@@ -42,11 +44,11 @@
 }
 
 /* xxs */
-@media screen and (width >= 390px) {
+@media screen and (min-width: 390px) {
   .container {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 360px;
+    min-height: 150px;
+    margin: 0 auto;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
     border: 1px dotted red;
@@ -58,11 +60,11 @@
 }
 
 /* xs */
-@media screen and (width >= 480px) {
+@media screen and (min-width: 400px) {
   .container {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 100%;
+    min-height: 100px;
+    margin: 0 auto;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
     border: 1px dotted red;
@@ -74,7 +76,8 @@
 }
 
 /* sm */
-@media screen and (width >= 640px) {
+
+/* @media screen and (width >= 640px) {
   .container {
     width: 100%;
     max-width: 640px;
@@ -86,10 +89,11 @@
   .section {
     margin-top: 5rem;
   }
-}
+} */
 
 /* md */
-@media screen and (width >= 768px) {
+
+/* @media screen and (width >= 768px) {
   .container {
     width: 100%;
     max-width: 768px;
@@ -101,10 +105,11 @@
   .section {
     margin-top: 5rem;
   }
-}
+} */
 
 /* lg */
-@media screen and (width >= 1024px) {
+
+/* @media screen and (width >= 1024px) {
   .container {
     width: 100%;
     max-width: 1024px;
@@ -116,10 +121,11 @@
   .section {
     margin-top: 10rem;
   }
-}
+} */
 
 /* xl */
-@media screen and (width >= 1280px) {
+
+/* @media screen and (width >= 1280px) {
   .container {
     width: 100%;
     max-width: 1280px;
@@ -131,10 +137,11 @@
   .section {
     margin-top: 5rem;
   }
-}
+} */
 
 /* 2xl */
-@media screen and (width >= 1536px) {
+
+/* @media screen and (width >= 1536px) {
   .container {
     max-width: 1536px;
     margin-right: auto;
@@ -145,4 +152,4 @@
   .section {
     margin-top: 5rem;
   }
-}
+} */
