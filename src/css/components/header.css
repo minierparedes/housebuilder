@@ -18,7 +18,6 @@
   justify-content: space-between;
   order: 1;
   display: flex;
-  border: 1px dotted red;
 }
 
 .header-logo {
@@ -28,20 +27,17 @@
 .header-logo-mobile {
   width: var(--size-7xl);
   height: auto;
-  border: 1px dotted red;
 }
 
 .hamburger-btn {
   width: var(--size-3xl);
   height: auto;
   color: var(--clr-gray800);
-  border: 1px dotted red;
 }
 
 .contact-btn-container {
   order: 3;
   text-align: center;
-  border: 1px dotted red;
   border-radius: 5px;
   background: linear-gradient(#ffc000, #ffa800);
 }
@@ -72,7 +68,6 @@
     display: block;
     width: var(--size-8xl);
     height: auto;
-    border: 1px dotted red;
   }
 
   .header-container {
@@ -91,14 +86,13 @@
   .contact-btn {
     font-size: var(--size-md);
     font-weight: 500;
-    color: var(--clr-gray900);
     letter-spacing: -0.2px;
   }
 }
 
 /* xs */
 
-/* @media screen and (width >= 480px)  */
+/* @media screen and (min-width: 480px)  */
 
 /* sm */
 
@@ -152,7 +146,7 @@
 
 /* lg */
 
-/* @media (width >= 1024px) {} */
+/* @media (min-width: 1024px) {} */
 
 /* xl */
 
