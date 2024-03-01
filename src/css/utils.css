@@ -1,6 +1,76 @@
+/* stylelint-disable media-feature-range-notation */
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  color: var(--clr-slate50);
+  letter-spacing: 0.5rem;
+  text-decoration: none;
+  border-radius: 6px;
+  background-color: var(--clr-button);
+}
+
+.btn:hover {
+  background-color: var(--clr-button-hover);
+}
+
+/* xxs */
+@media screen and (min-width: 390px) {
+  .container {
+    max-width: 360px;
+    min-height: 150px;
+    margin: 0 auto;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  .section {
+    margin-top: 5rem;
+  }
+}
+
+/* xs */
+@media screen and (min-width: 400px) {
+  .container {
+    max-width: 100%;
+    min-height: 100px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .section {
+    margin-top: 5rem;
+  }
+}
+
+/* sm */
+@media screen and (min-width: 640px) {
+  .container {
+    padding-right: 1.6rem;
+    padding-left: 2.1rem;
+  }
+}
+
+/* md */
+
+/* @media screen and (width >= 768px) {} */
+
+/* base */
+@media screen and (min-width: 900px) {
+  .container {
+    padding-right: 3.6rem;
+    padding-left: 3rem;
+  }
+}
+
+/* xxs */
+
+/* @media screen and (min-width: 390px)  */
+
 /* xs */
 
-/* @media (width >= 475px) {} */
+/* @media screen and (min-width: 480px)  */
 
 /* sm */
 
@@ -21,77 +91,3 @@
 /* 2xl */
 
 /* @media (min-width: 1536px) {} */
-
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  font-weight: 600;
-  color: var(--clr-slate50);
-  letter-spacing: 0.5rem;
-  text-decoration: none;
-  border-radius: 6px;
-  background-color: var(--clr-button);
-}
-
-.btn:hover {
-  background-color: var(--clr-button-hover);
-}
-
-.container {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  border: 1px dotted red;
-}
-
-.section {
-  margin-top: 5rem;
-}
-
-/* xs */
-@media (width >= 475px) {
-  .container {
-    max-width: 475px;
-  }
-}
-
-/* sm */
-@media (width >= 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-/* md */
-@media (width >= 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-/* lg */
-@media (width >= 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-
-  .section {
-    margin-top: 10rem;
-  }
-}
-
-/* xl */
-@media (width >= 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-/* 2xl */
-@media (width >= 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
