@@ -34,7 +34,7 @@
 .hamburger-btn {
   width: var(--size-3xl);
   height: auto;
-  color: var(--clr-slate500);
+  color: var(--clr-gray800);
   border: 1px dotted red;
 }
 
@@ -49,8 +49,8 @@
 .contact-btn {
   padding: 7px 18px;
   font-size: var(--size-sm);
-  font-weight: 500;
-  color: var(--clr-gray900);
+  font-weight: 800;
+  color: var(--clr-contact-btn-text);
   letter-spacing: -0.6px;
 }
 
@@ -113,6 +113,7 @@
   .header-logo {
     width: var(--size-9xl);
     height: auto;
+    margin-right: 15px;
   }
 
   .hamburger-btn {
@@ -141,7 +142,8 @@
   }
 
   .contact-btn {
-    font-size: var(--size-md);
+    padding: 12px 30px;
+    font-size: var(--size-base1);
     font-weight: 500;
     color: var(--clr-gray900);
     letter-spacing: -0.2px;
@@ -150,40 +152,7 @@
 
 /* lg */
 
-/* @media (width >= 1024px) {
-    .header-content {
-      justify-content: space-evenly;
-      align-items: center;
-      display: flex;
-      margin: 0 auto;
-    }
-
-    .header-logo {
-      width: var(--size-8xl);
-      height: auto;
-      margin-right: 50px;
-      border: 1px dotted red;
-    }
-
-    .menu-container {
-      width: 475px;
-      margin-right: auto;
-    }
-
-    .menu-links {
-      justify-content: space-between;
-      display: flex;
-      border: 1px dotted red;
-    }
-
-    .header-links {
-      border: 1px dotted red;
-    }
-
-    .hamburger-btn {
-      display: none;
-    }
-  } */
+/* @media (width >= 1024px) {} */
 
 /* xl */
 
