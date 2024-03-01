@@ -64,9 +64,8 @@
   .container {
     max-width: 100%;
     min-height: 100px;
-    margin: 0 auto;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
     border: 1px dotted red;
   }
 
@@ -76,36 +75,24 @@
 }
 
 /* sm */
-
-/* @media screen and (width >= 640px) {
+@media screen and (min-width: 640px) {
   .container {
-    width: 100%;
-    max-width: 640px;
-    margin-right: auto;
-    margin-left: auto;
-    border: 1px dotted red;
+    padding-right: 1.6rem;
+    padding-left: 2.1rem;
   }
-
-  .section {
-    margin-top: 5rem;
-  }
-} */
+}
 
 /* md */
 
-/* @media screen and (width >= 768px) {
-  .container {
-    width: 100%;
-    max-width: 768px;
-    margin-right: auto;
-    margin-left: auto;
-    border: 1px dotted red;
-  }
+/* @media screen and (width >= 768px) {} */
 
-  .section {
-    margin-top: 5rem;
+/* base */
+@media screen and (min-width: 900px) {
+  .container {
+    padding-right: 3.6rem;
+    padding-left: 3rem;
   }
-} */
+}
 
 /* lg */
 

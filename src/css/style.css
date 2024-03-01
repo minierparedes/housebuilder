@@ -32,8 +32,10 @@
   --size-6xl: 3.75rem;
   --size-7xl: 4.5rem;
   --size-8xl: 6rem;
-  --size-9xl: 8rem;
-  --size-10xl: 10rem;
+  --size-9xl: 6.5rem;
+  --size-10xl: 7rem;
+  --size-11xl: 8rem;
+  --size-12xl: 10rem;
 }
 
 * {

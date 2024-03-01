@@ -108,61 +108,45 @@
 
 /* @media (min-width: 768px) {} */
 
-/* md */
-
-/* @media (width >= 900px) {
-  .header {
-    align-items: center;
-    display: flex;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+/* base */
+@media screen and (min-width: 900px) {
+  .header-logo {
+    width: var(--size-9xl);
+    height: auto;
   }
 
-  .menu-container {
+  .hamburger-btn {
+    display: none;
+  }
+
+  .nav-container {
     justify-content: space-between;
-    display: flex;
-    width: 100%;
-  }
-
-  .menu-links {
     align-items: center;
     display: flex;
-    padding: 0;
-    border: 1px dotted red;
-    list-style: none;
-    gap: 2em;
-  }
-
-  .header-links,
-  .contact-button {
-    font-size: var(--size-xs);
-    font-weight: 600;
     color: var(--clr-slate500);
-    letter-spacing: -0.1em;
-    text-decoration: none;
-    transition: color 0.3s;
   }
 
-  .header-links:hover {
-    color: var(--clr-gray600);
-  }
-
-  .menu-mobile-contact,
-  .menu-nav-bars {
-    display: none;
-  }
-
-  .menu-contact {
-    align-items: center;
+  .nav-container ul {
     display: flex;
-    border: 1px dotted red;
-    list-style: none;
   }
 
-  .menu-nav-bars {
-    display: none;
+  .nav-container ul li {
+    margin-left: 20px;
+    letter-spacing: -0;
   }
-} */
+
+  .contact-btn-container {
+    order: 3;
+    margin-left: auto;
+  }
+
+  .contact-btn {
+    font-size: var(--size-md);
+    font-weight: 500;
+    color: var(--clr-gray900);
+    letter-spacing: -0.2px;
+  }
+}
 
 /* lg */
 
