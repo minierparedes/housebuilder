@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   display: flex;
-  row-gap: 15px;
+  row-gap: 16px;
 }
 
 .header-container {
@@ -25,14 +25,15 @@
 }
 
 .header-logo-mobile {
-  width: var(--size-7xl);
+  width: 6.38rem;
   height: auto;
 }
 
 .hamburger-btn {
   width: var(--size-3xl);
   height: auto;
-  color: var(--clr-gray800);
+  color: #e6e7e8;
+  background-color: #404e5a;
 }
 
 .contact-btn-container {
@@ -43,9 +44,9 @@
 }
 
 .contact-btn {
-  padding: 7px 18px;
+  padding: 0.66rem 1.5rem;
   font-size: var(--size-sm);
-  font-weight: 800;
+  font-weight: 500;
   color: var(--clr-contact-btn-text);
   letter-spacing: -0.6px;
 }
