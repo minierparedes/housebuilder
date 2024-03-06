@@ -16,6 +16,10 @@
 }
 
 /* xxs */
+
+/* @media screen and (min-width: 390px)  */
+
+/* xs */
 @media screen and (max-width: 400px) {
   .container {
     max-width: 93%;
@@ -78,7 +82,7 @@
 
 /* xs */
 
-/* @media screen and (min-width: 480px)  */
+/* @media screen and (max-width: 400px) {} */
 
 /* sm */
 
@@ -87,6 +91,10 @@
 /* md */
 
 /* @media (min-width: 768px) {} */
+
+/* base */
+
+/* @media (min-width: 900px) {} */
 
 /* lg */
 
