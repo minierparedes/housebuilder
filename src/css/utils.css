@@ -1,26 +1,4 @@
-/* xs */
-
-/* @media (width >= 475px) {} */
-
-/* sm */
-
-/* @media (min-width: 640px) {} */
-
-/* md */
-
-/* @media (min-width: 768px) {} */
-
-/* lg */
-
-/* @media (min-width: 1024px) {} */
-
-/* xl */
-
-/* @media (min-width: 1280px) {} */
-
-/* 2xl */
-
-/* @media (min-width: 1536px) {} */
+/* stylelint-disable media-feature-range-notation */
 
 .btn {
   display: inline-block;
@@ -37,61 +15,95 @@
   background-color: var(--clr-button-hover);
 }
 
-.container {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  border: 1px dotted red;
-}
+/* xxs */
 
-.section {
-  margin-top: 5rem;
+/* @media screen and (min-width: 390px)  */
+
+/* xs */
+@media screen and (max-width: 400px) {
+  .container {
+    max-width: 93%;
+    min-height: 150px;
+    margin: 0 auto;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  .section {
+    margin-top: 6rem;
+  }
 }
 
 /* xs */
-@media (width >= 475px) {
+@media screen and (min-width: 400px) {
   .container {
-    max-width: 475px;
+    max-width: 100%;
+    min-height: 100px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .section {
+    margin-top: 6rem;
   }
 }
 
 /* sm */
-@media (width >= 640px) {
+@media screen and (min-width: 640px) {
   .container {
-    max-width: 640px;
+    padding-right: 1.6rem;
+    padding-left: 2.1rem;
+  }
+
+  .section {
+    margin-top: 6rem;
   }
 }
 
 /* md */
-@media (width >= 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
 
-/* lg */
-@media (width >= 1024px) {
+/* @media screen and (width >= 768px) {} */
+
+/* base */
+@media screen and (min-width: 900px) {
   .container {
-    max-width: 1024px;
+    padding-right: 3.6rem;
+    padding-left: 3rem;
   }
 
   .section {
-    margin-top: 10rem;
+    margin-top: 6rem;
   }
 }
+
+/* xxs */
+
+/* @media screen and (min-width: 390px)  */
+
+/* xs */
+
+/* @media screen and (max-width: 400px) {} */
+
+/* sm */
+
+/* @media (min-width: 640px) {} */
+
+/* md */
+
+/* @media (min-width: 768px) {} */
+
+/* base */
+
+/* @media (min-width: 900px) {} */
+
+/* lg */
+
+/* @media (min-width: 1024px) {} */
 
 /* xl */
-@media (width >= 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
+
+/* @media (min-width: 1280px) {} */
 
 /* 2xl */
-@media (width >= 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
+
+/* @media (min-width: 1536px) {} */
