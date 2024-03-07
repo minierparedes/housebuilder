@@ -129,5 +129,9 @@
 /* @media (min-width: 1280px) {} */
 
 /* 2xl */
-
-/* @media (min-width: 1536px) {} */
+@media (min-width: 1536px) {
+  .features-img {
+    width: 83.7rem;
+    height: auto;
+  }
+}
