@@ -44,7 +44,7 @@
 }
 
 .contact-btn {
-  padding: 0.66rem 1.5rem;
+  padding: 0.55rem 1.5rem;
   font-size: var(--size-sm);
   font-weight: 500;
   color: var(--clr-contact-btn-text);
