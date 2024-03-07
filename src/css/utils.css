@@ -110,3 +110,15 @@
     max-width: 75%;
   }
 }
+
+/* 3xl */
+@media (min-width: 2023px) {
+  .container {
+    max-width: 1785px;
+    margin: 0 auto;
+  }
+
+  .section {
+    margin-top: 6rem;
+  }
+}
