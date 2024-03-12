@@ -89,17 +89,57 @@
 
 /* base */
 @media (width >= 900px) {
+  .commerce-info h1 {
+    font-size: 2rem;
+  }
+
+  .commerce-info h3 {
+    font-size: var(--size-base);
+  }
+
+  .commerce-info p {
+    max-width: 100%;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+
   .commerce-tags {
-    min-width: 130px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-width: 100px;
+    height: 28px;
+    margin-right: 15px;
+    font-size: 0.9rem;
     color: var(--clr-slate50);
+    letter-spacing: 0.8px;
     text-align: center;
     background-color: #006acd;
+  }
+
+  .commerce-dates {
+    font-size: 1rem;
+  }
+
+  .template-info p {
+    letter-spacing: 0.7px;
+  }
+
+  .template-info-link {
+    font-size: 1rem;
+  }
+
+  .template-info-banner-link {
+    font-size: 1rem;
   }
 }
 
 /* lg */
-
-/* @media (min-width: 1024px) {} */
+@media (width >= 1024px) {
+  .template-info {
+    margin-top: 4rem;
+  }
+}
 
 /* xl */
 
