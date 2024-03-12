@@ -15,48 +15,57 @@
   </head>
   <body>
     <header class="header container">
-      <nav class="menu-container">
-        <ul class="menu-links">
-          <li><img class="header-logo" src="/src/assets/home-logo.png" alt="company logo" /></li>
-          <li><a class="header-links" href="#home">ホーム</a></li>
-          <li><a class="header-links" href="#case-studies">制作事例</a></li>
-          <li><a class="header-links" href="#testimonials">お客様の声</a></li>
-          <li><a class="header-links" href="#faqs">よく頂く質問</a></li>
-        </ul>
-        <ul class="menu-contact">
-          <li><a class="contact-button" href="contact.html">お問い合わせ・資料請求</a></li>
-        </ul>
-        <button class="menu-nav-bars">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-            <path
-              fill-rule="evenodd"
-              d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
-              clip-rule="evenodd"
-            />
-          </svg>
-        </button>
-      </nav>
+      <div class="header-content container-header">
+        <img class="header-logo" src="/src/assets/home-logo.png" alt="company logo" />
+        <div class="header-container">
+          <img class="header-logo-mobile" src="/src/assets/home-logo.png" alt="company logo" />
+          <nav class="nav-container">
+            <ul>
+              <li><a href="#home">ホーム</a></li>
+              <li><a href="#case-studies">制作事例</a></li>
+              <li><a href="#testimonials">お客様の声</a></li>
+              <li><a href="#faqs">よく頂く質問</a></li>
+            </ul>
+          </nav>
+          <button class="hamburger-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                fill-rule="evenodd"
+                d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="contact-btn-container">
+          <ul class="contact-btn">
+            <li><a href="contact.html">お問い合わせ・資料請求</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
       <section class="hero container">
         <img src="/src/assets/1.jpg" alt="hero carousel" />
       </section>
-      <div class="features-main-heading">
+      <div class="features-main-heading section">
         <h1 class="features-heading">今月の特集</h1>
         <p class="features-subheading">This Month's Special</p>
       </div>
-      <section class="feature container section">
-        <div class="features-img-content">
-          <img class="features-img" src="/src/assets/1.jpg" alt="" />
-        </div>
-        <div class="features-content">
-          <h2 class="features-title">ここにタイトルを入れます</h2>
-          <p class="features-description">
-            ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。
-          </p>
+      <section class="feature container-feature container section">
+        <div class="feature-wrapper">
+          <div class="features-img-content">
+            <img class="features-img" src="/src/assets/1.jpg" alt="" />
+          </div>
+          <div class="features-content">
+            <h4 class="features-title">ここにタイトルを入れます</h4>
+            <p class="features-description">
+              ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。
+            </p>
+          </div>
         </div>
       </section>
-      <section class="feature-list section">
+      <section class="feature-list container-feature-list container section">
         <div class="feature-list-main-heading">
           <h1 class="feature-list-heading">施工事例</h1>
           <p class="feature-list-subheading">Example of Construction</p>
@@ -66,13 +75,13 @@
             <img class="card-img" src="/src/assets/1.jpg" alt="house 1" />
             <h3 class="card-title">東京都XX様宅</h3>
             <p class="card-description">ここに説明を入れます。サンプルテキスト。</p>
-            <button class="card-btn">詳しくみる</button>
+            <button class="card-btn btn-1">詳しくみる</button>
           </div>
           <div class="feature-list-img-card">
             <img class="card-img" src="/src/assets/2.jpg" alt="house 1" />
             <h3 class="card-title">東京都XX様宅</h3>
             <p class="card-description">ここに説明を入れます。サンプルテキスト。</p>
-            <button class="card-btn">詳しくみる</button>
+            <button class="card-btn btn-2">詳しくみる</button>
           </div>
           <div class="feature-list-img-card">
             <img class="card-img" src="/src/assets/3.jpg" alt="house 1" />
@@ -84,41 +93,35 @@
           </div>
         </div>
       </section>
-      <section class="commerce-info container section">
+      <section class="commerce-info container-commerce container section">
         <div class="whats-new">
           <h1>新着情報</h1>
           <hr />
           <div class="commerce-info-row">
             <time class="commerce-dates" datetime="2023-11-17">2023/11/17</time>
-            <div class="commerce-tags">お知らせ</div>
+            <div class="commerce-tags tag1">お知らせ</div>
             <p class="commerce-description">
               ハウスメーカー・工務店向け無料ホームページテンプレート tp_housebuilder1公開。
             </p>
           </div>
           <div class="commerce-info-row">
             <time class="commerce-dates" datetime="2023-11-17">20XX/00/00</time>
-            <div class="commerce-tags">施工事例</div>
-            <p class="commerce-description">
-              ハウスメーカー・工務店向け無料ホームページテンプレート tp_housebuilder1公開。
-            </p>
+            <div class="commerce-tags tag2">施工事例</div>
+            <p class="commerce-description">サンプルテキスト。サンプルテキスト。サンプルテキスト。</p>
           </div>
           <div class="commerce-info-row">
             <time class="commerce-dates" datetime="2023-11-17">20XX/00/00</time>
-            <div class="commerce-tags">キャンペーン</div>
-            <p class="commerce-description">
-              ハウスメーカー・工務店向け無料ホームページテンプレート tp_housebuilder1公開。
-            </p>
+            <div class="commerce-tags tag3">キャンペーン</div>
+            <p class="commerce-description">サンプルテキスト。サンプルテキスト。サンプルテキスト。</p>
           </div>
           <div class="commerce-info-row">
             <time class="commerce-dates" datetime="2023-11-17">20XX/00/00</time>
-            <div class="commerce-tags">お知らせ</div>
-            <p class="commerce-description">
-              サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。
-            </p>
+            <div class="commerce-tags tag4">お知らせ</div>
+            <p class="commerce-description">サンプルテキスト。サンプルテキスト。サンプルテキスト。</p>
           </div>
           <div class="commerce-info-row">
             <time class="commerce-dates" datetime="2023-11-17">20XX/00/00</time>
-            <div class="commerce-tags">施工事例</div>
+            <div class="commerce-tags tag5">施工事例</div>
             <p class="commerce-description">
               サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。
             </p>
@@ -129,17 +132,17 @@
           <hr />
           <h3>利用規約のご案内</h3>
           <p>
-            このテンプレートは、Template
-            Partyにて無料配布している『ハウスメーカー・工務店向け無料ホームページテンプレート
+            このテンプレートは、<span><a href="#">Template Party</a></span>
+            にて無料配布している『ハウスメーカー・工務店向け無料ホームページテンプレート
             tp_housebuilder1』です。必ずダウンロード先のサイトの利用規約をご一読の上でご利用下さい。
           </p>
           <p></p>
-          <p>HP最下部の著作表示『Web Design:Template-Party』は無断で削除しないで下さい。</p>
+          <p class="warning-message">HP最下部の著作表示『Web Design:Template-Party』は無断で削除しないで下さい。</p>
           <p>わざと見えなく加工する事も禁止です。 下部の著作を外したい場合は</p>
           <p>Template-Partyのライセンス契約を行う事でHP下部の著作を外す事ができます。</p>
-          <p>当テンプレートの詳しい使い方は</p>
+          <h3>当テンプレートの詳しい使い方は</h3>
 
-          <a href="http://">こちらをご覧下さい。</a>
+          <div class="template-info-link"><a href="http://">こちらをご覧下さい。</a></div>
         </div>
         <div class="cms-info">
           <h1>CMSのご案内</h1>
@@ -148,7 +151,7 @@
             2022年まで当サイトで販売窓口を行っていたCMSが、本来の開発者のサイトからの販売に切り替わりました。
             「お知らせ」向けの無料CMSもあります。
           </p>
-          <a href="http://">&gt;&gt; クイックCMS様</a>
+          <div class="template-info-banner-link"><a href="http://">&gt;&gt; クイックCMS様</a></div>
           <img class="cms-info-img" src="/src/assets/banner_q19.jpg" alt="house banners" />
         </div>
       </section>

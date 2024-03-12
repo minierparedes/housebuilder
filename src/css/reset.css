@@ -17,9 +17,13 @@ html {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+ul,
+ol {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Set core body defaults */
@@ -45,6 +49,18 @@ button,
 input,
 label {
   line-height: 1.1;
+}
+
+/* Reset all default styles */
+button {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none; /* Remove outline on focus */
 }
 
 /* Balance text wrapping on headings */

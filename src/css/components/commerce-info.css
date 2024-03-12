@@ -11,9 +11,10 @@
 }
 
 .commerce-info p {
+  margin-top: -3.2px;
   margin-bottom: 1rem;
-  margin-left: 1rem;
-  font-size: var(--size-sm);
+  font-size: 0.8rem;
+  line-height: 1.8;
 }
 
 .commerce-info hr {
@@ -21,46 +22,62 @@
 }
 
 .commerce-info-row {
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   display: flex;
   gap: 1;
-  border: 1px dotted red;
-}
-
-.commerce-dates,
-.commerce-tags,
-.commerce-description {
-  margin-bottom: 1rem;
-  border: 1px dotted red;
-}
-
-.commerce-dates {
-  margin-right: 1rem;
-  border: 1px dotted red;
 }
 
 .commerce-tags {
-  min-width: 130px;
-  color: var(--clr-slate50);
-  text-align: center;
-  background-color: #006acd;
+  display: none;
 }
 
-.commerce-description {
-  border: 1px dotted red;
+.commerce-dates {
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.7px;
 }
 
 .cms-info-img {
   margin-top: 1.5rem;
 }
 
-.cms-info {
-  margin-bottom: 2rem;
+.template-info h3 {
+  color: var(--clr-secondary-text);
 }
+
+.template-info p {
+  letter-spacing: 0.7px;
+}
+
+/* TODO: missing line */
+.template-info a {
+  text-decoration: dashed;
+}
+
+.warning-message {
+  color: red;
+}
+
+.template-info-link {
+  margin-bottom: 4rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.7px;
+}
+
+.template-info-banner-link {
+  margin-bottom: -12px;
+  font-size: 0.8rem;
+  letter-spacing: 0.7px;
+}
+
+/* xxs */
+
+/* @media screen and (min-width: 390px)  */
 
 /* xs */
 
-/* @media (width >= 475px) {} */
+/* @media screen and (max-width: 400px) {} */
 
 /* sm */
 
@@ -70,9 +87,74 @@
 
 /* @media (min-width: 768px) {} */
 
-/* lg */
+/* base */
+@media (width >= 900px) {
+  .commerce-info h1 {
+    font-size: 2rem;
+  }
 
-/* @media (min-width: 1024px) {} */
+  .commerce-info h3 {
+    font-size: var(--size-base);
+  }
+
+  .commerce-info p {
+    max-width: 100%;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+
+  .commerce-tags {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-width: 90px;
+    height: 24px;
+    margin-right: 15px;
+    font-size: 0.8rem;
+    color: var(--clr-slate50);
+    letter-spacing: 0.8px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #006acd;
+  }
+
+  .tag1 {
+    background-color: #999;
+  }
+
+  .tag2 {
+    background-color: #cd0000;
+  }
+
+  .tag4,
+  .tag5 {
+    color: white;
+    background-color: white;
+  }
+
+  .commerce-dates {
+    font-size: 1rem;
+  }
+
+  .template-info p {
+    letter-spacing: 0.7px;
+  }
+
+  .template-info-link {
+    font-size: 1rem;
+  }
+
+  .template-info-banner-link {
+    font-size: 1rem;
+  }
+}
+
+/* lg */
+@media (width >= 1024px) {
+  .template-info {
+    margin-top: 4rem;
+  }
+}
 
 /* xl */
 

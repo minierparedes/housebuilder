@@ -1,3 +1,35 @@
+/* xxs */
+
+/* @media screen and (min-width: 390px)  */
+
+/* xs */
+
+/* @media screen and (max-width: 400px) {} */
+
+/* sm */
+
+/* @media (min-width: 640px) {} */
+
+/* md */
+
+/* @media (min-width: 768px) {} */
+
+/* base */
+
+/* @media (min-width: 900px) {} */
+
+/* lg */
+
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+
+/* @media (min-width: 1536px) {} */
+
 :root {
   --clr-red: #f00;
   --clr-orange600: #ea580c;
@@ -5,30 +37,42 @@
   --clr-gray400: #4b5563ad;
   --clr-gray600: #4b5563;
   --clr-gray700: #374151;
+  --clr-gray800: #404e5a;
+  --clr-gray900: #313c46;
   --clr-slate50: #f8fafc;
   --clr-slate300: #fefefe;
+  --clr-slate500: #e6e7e8;
   --clr-blue600: #2563eb;
   --clr-cyan700: #0369a1;
-  --clr-background: #626f78;
+  --clr-contact-btn-text: #333;
+  --clr-contact-btn: #ffb300;
   --clr-button: #404e5a;
   --clr-button-hover: #5a6f81;
+  --clr-primary: #404e5a;
+  --clr-secondary: #626f78;
+  --clr-primary-text: #e6e7e8;
+  --clr-secondary-text: #696a6a;
 
   /* sizes */
   --size-xxs: 0.5rem;
   --size-xs: 0.75rem;
   --size-sm: 0.875rem;
+  --size-md: 0.9rem;
   --size-base: 1rem;
+  --size-base1: 1rem;
   --size-lg: 1.125rem;
   --size-xl: 1.25rem;
   --size-2xl: 1.5rem;
   --size-3xl: 1.875rem;
   --size-4xl: 2.25rem;
   --size-5xl: 3rem;
-  --size-6xl: 3.75rem;
+  --size-6xl: 3.5rem;
   --size-7xl: 4.5rem;
   --size-8xl: 6rem;
-  --size-9xl: 8rem;
-  --size-10xl: 10rem;
+  --size-9xl: 6.5rem;
+  --size-10xl: 7rem;
+  --size-11xl: 8rem;
+  --size-12xl: 10rem;
 }
 
 * {
@@ -42,13 +86,4 @@ html {
 body {
   color: var(--clr-gray600);
   background-color: var(--clr-slate300);
-}
-
-button {
-  display: inline-block;
-  padding: 0;
-  color: inherit;
-  border: none;
-  background: none;
-  cursor: pointer;
 }
