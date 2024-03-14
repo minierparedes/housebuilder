@@ -112,5 +112,13 @@
 }
 
 /* 3xl */
+@media (min-width: 2023px) {
+  .container {
+    max-width: 1785px;
+    margin: 0 auto;
+  }
 
-/* @media (max-width: 2023px) { } */
+  .section {
+    margin-top: 6rem;
+  }
+}
