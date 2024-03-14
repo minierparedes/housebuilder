@@ -1,0 +1,158 @@
+/* stylelint-disable media-feature-range-notation */
+.header {
+  background-color: var(--clr-gray800);
+}
+
+.nav-container {
+  display: none;
+}
+
+.header-content {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  row-gap: 16px;
+}
+
+.header-container {
+  justify-content: space-between;
+  order: 1;
+  display: flex;
+}
+
+.header-logo {
+  display: none;
+}
+
+.header-logo-mobile {
+  width: 6.38rem;
+  height: auto;
+}
+
+.hamburger-btn {
+  width: var(--size-3xl);
+  height: auto;
+  color: #e6e7e8;
+  background-color: #404e5a;
+}
+
+.contact-btn-container {
+  order: 3;
+  text-align: center;
+  border-radius: 5px;
+  background: linear-gradient(#ffc000, #ffa800);
+}
+
+.contact-btn {
+  padding: 0.55rem 1.5rem;
+  font-size: var(--size-sm);
+  font-weight: 500;
+  color: var(--clr-contact-btn-text);
+  letter-spacing: -0.6px;
+}
+
+/* xxs */
+@media screen and (min-width: 400px) {
+  .header-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+
+  .header-logo-mobile {
+    display: none;
+  }
+
+  .header-logo {
+    order: 1;
+    display: block;
+    width: var(--size-8xl);
+    height: auto;
+  }
+
+  .header-container {
+    order: 3;
+  }
+
+  .hamburger-btn {
+    margin-left: 10px;
+  }
+
+  .contact-btn-container {
+    order: 2;
+    margin-left: auto;
+  }
+
+  .contact-btn {
+    font-size: var(--size-md);
+    font-weight: 500;
+    letter-spacing: -0.2px;
+  }
+}
+
+/* xs */
+
+/* @media screen and (min-width: 480px)  */
+
+/* sm */
+
+/* @media (min-width: 640px) {} */
+
+/* md */
+
+/* @media (min-width: 768px) {} */
+
+/* base */
+@media screen and (min-width: 900px) {
+  .header-logo {
+    width: var(--size-9xl);
+    height: auto;
+    margin-right: 15px;
+  }
+
+  .hamburger-btn {
+    display: none;
+  }
+
+  .nav-container {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: var(--clr-slate500);
+  }
+
+  .nav-container ul {
+    display: flex;
+  }
+
+  .nav-container ul li {
+    margin-left: 20px;
+    letter-spacing: -0;
+  }
+
+  .contact-btn-container {
+    order: 3;
+    margin-left: auto;
+  }
+
+  .contact-btn {
+    padding: 12px 30px;
+    font-size: var(--size-base1);
+    font-weight: 500;
+    color: var(--clr-gray900);
+    letter-spacing: -0.2px;
+  }
+}
+
+/* lg */
+
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+
+/* @media (min-width: 1536px) {} */

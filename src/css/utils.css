@@ -1,0 +1,134 @@
+/* stylelint-disable media-feature-range-notation */
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  color: var(--clr-slate50);
+  letter-spacing: 0.5rem;
+  text-decoration: none;
+  border-radius: 6px;
+  background-color: var(--clr-button);
+}
+
+.btn:hover {
+  background-color: var(--clr-button-hover);
+}
+
+/* xs */
+@media screen and (max-width: 400px) {
+  .container-header {
+    max-width: 93%;
+    min-height: 145px;
+    margin: 0 auto;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  .container-feature-list {
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+  }
+
+  .container-commerce {
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+  }
+
+  .section {
+    margin-top: 4rem;
+  }
+}
+
+/* xs */
+@media screen and (min-width: 400px) {
+  .container-header {
+    max-width: 100%;
+    min-height: 100px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .container-commerce {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+
+  .section {
+    margin-top: 5rem;
+  }
+}
+
+/* sm */
+@media screen and (min-width: 640px) {
+  .container-header {
+    padding-right: 1.6rem;
+    padding-left: 2.1rem;
+  }
+}
+
+/* md */
+
+/* @media screen and (width >= 768px) {} */
+
+/* base */
+@media screen and (min-width: 900px) {
+  .container-header {
+    min-height: 90px;
+    padding-right: 3.6rem;
+    padding-left: 3rem;
+  }
+
+  .container-feature-list {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container-header {
+    max-width: 1718px;
+    margin: 0 auto;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container-header {
+    padding-left: 4rem;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1785px;
+    margin: 0 auto;
+  }
+
+  .section {
+    margin-top: 6rem;
+  }
+
+  .container-header {
+    padding-right: 1.6rem;
+    padding-left: 3rem;
+  }
+
+  /* .container-feature {
+    max-width: 63.5%;
+  } */
+}
+
+/* 3xl */
+@media (min-width: 2023px) {
+  .container {
+    max-width: 1785px;
+    margin: 0 auto;
+  }
+
+  .section {
+    margin-top: 6rem;
+  }
+}
