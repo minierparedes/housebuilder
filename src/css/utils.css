@@ -30,6 +30,11 @@
     padding-left: 0.3rem;
   }
 
+  .container-commerce {
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+  }
+
   .section {
     margin-top: 4rem;
   }
@@ -42,6 +47,11 @@
     min-height: 100px;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+  }
+
+  .container-commerce {
+    padding-right: 3rem;
+    padding-left: 3rem;
   }
 
   .section {
