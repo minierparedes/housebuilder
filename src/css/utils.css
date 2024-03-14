@@ -87,8 +87,20 @@
     margin: 0 auto;
   }
 
+  .section {
+    margin-top: 6rem;
+  }
+
   .container-header {
     padding-right: 1.6rem;
     padding-left: 3rem;
   }
+
+  /* .container-feature {
+    max-width: 63.5%;
+  } */
 }
+
+/* 3xl */
+
+/* @media (max-width: 2023px) { } */
