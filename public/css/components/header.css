@@ -170,16 +170,25 @@
     justify-content: space-between;
     align-items: center;
     display: flex;
-    color: var(--clr-slate500);
   }
 
-  .nav-container ul {
+  .nav-list {
     display: flex;
   }
 
-  .nav-container ul li {
+  .nav-list .nav-item {
     margin-left: 20px;
     letter-spacing: -0;
+  }
+
+  .nav-item {
+    color: rgb(230 231 232/ 100%);
+    transition: all 0.4s;
+  }
+
+  .nav-item:hover,
+  .nav-item:focus {
+    color: rgb(230 231 232/ 65%);
   }
 
   .contact-btn-container {
