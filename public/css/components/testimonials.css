@@ -49,7 +49,7 @@
 }
 
 .card-img {
-  width: 380px;
+  width: 100%;
   height: auto;
   margin-bottom: 30px;
   border-radius: 10px;
@@ -102,8 +102,43 @@
 /* @media (min-width: 768px) {} */
 
 /* base */
+@media (min-width: 900px) {
+  .card-container:nth-child(3) .card-wrapper {
+    flex-direction: row-reverse;
+  }
 
-/* @media (min-width: 900px) {} */
+  .testimonial-card {
+    padding: 45px;
+  }
+
+  .card-wrapper {
+    column-gap: 2rem;
+    display: flex;
+  }
+
+  .card-heading {
+    margin-bottom: 1.3rem;
+    font-size: 1.5rem;
+  }
+
+  .card-description {
+    margin-bottom: 30px;
+    font-size: 1rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.2em;
+  }
+
+  .card-img {
+    width: 30%;
+    height: 23%;
+  }
+
+  .card-speech-bubble-text {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+  }
+}
 
 /* lg */
 
