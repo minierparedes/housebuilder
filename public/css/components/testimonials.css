@@ -24,6 +24,64 @@
   opacity: 0.7;
 }
 
+.card-container {
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  padding: 20px 30px;
+}
+
+.card-heading {
+  margin: 10px 0 15px;
+  font-size: 1.3rem;
+}
+
+.card-description {
+  margin-bottom: 30px;
+  font-size: 0.8rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.2em;
+}
+
+.card-img {
+  width: 380px;
+  height: auto;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px rgb(0 0 0 / 21.8%);
+  object-fit: cover;
+}
+
+.card-speech-bubble {
+  position: relative;
+  margin-top: 50px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #e7f1f1;
+}
+
+.card-speech-bubble::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  border-width: 0 20px 20px;
+  border-style: solid;
+  border-color: transparent transparent #e7f1f1;
+  transform: translateX(-50%);
+}
+
+.card-speech-bubble-text {
+  font-size: 0.7rem;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+}
+
 /* xxs */
 
 /* @media screen and (min-width: 390px)  */
