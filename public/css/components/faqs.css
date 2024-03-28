@@ -26,7 +26,12 @@
 
 .accordion-menu {
   overflow: hidden;
-  max-width: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .accordion-section {
@@ -45,7 +50,9 @@
   position: relative;
   display: block;
   margin-left: 15px;
+  font-size: 0.8rem;
   color: var(--clr-secondary-text);
+  letter-spacing: 0.1em;
   cursor: pointer;
   transition: background 0.1s;
 }
