@@ -1,14 +1,11 @@
 /* stylelint-disable media-feature-range-notation */
 .feature-list-main-heading {
   margin-bottom: var(--size-6xl);
-  background-color: var(--clr-background);
 }
 
 .feature-list {
   margin-top: 2.5rem;
   padding-top: 3rem;
-  padding-bottom: 4rem;
-  background-color: var(--clr-secondary);
 }
 
 .feature-list-card-container {
@@ -17,16 +14,10 @@
   gap: 3rem;
 }
 
-.feature-list-img-card {
-  flex: 1;
-  min-width: 14.625rem;
-  padding: 1rem;
-}
-
 .feature-list-heading {
   font-size: 2.3rem;
   font-weight: 500;
-  color: var(--clr-slate50);
+  color: var(--clr-secondary-text);
   text-align: center;
 }
 
@@ -39,6 +30,14 @@
   opacity: 0.7;
 }
 
+.feature-list-img-card {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  min-width: 14.625rem;
+  padding: 1rem;
+}
+
 .card-img {
   width: 100%;
   height: auto;
@@ -48,27 +47,37 @@
   margin-top: 1rem;
   font-size: var(--size-sm);
   font-weight: 200;
-  color: var(--clr-primary-text);
+  color: var(--clr-secondary-text);
+  letter-spacing: 1.5px;
 }
 
 .card-description {
   margin-bottom: 1rem;
-  font-size: var(--size-xs);
-  color: var(--clr-primary-text);
+  font-size: 0.7rem;
+  color: var(--clr-secondary-text);
+  letter-spacing: 1.5px;
 }
 
 .card-btn {
   width: 100%;
   height: 14%;
+  margin-top: auto;
   font-size: var(--size-sm);
   color: var(--clr-primary-text);
   text-align: center;
   background-color: var(--clr-button);
 }
 
-/* xs */
+/* xxs */
 
-/* @media (width >= 475px) {} */
+/* @media screen and (min-width: 390px)  */
+
+/* xs */
+@media screen and (max-width: 400px) {
+  .section {
+    margin-top: 1rem !important;
+  }
+}
 
 /* sm */
 @media (min-width: 640px) {
@@ -82,20 +91,18 @@
     height: 35px;
   }
 }
-
-/* md */
-@media (min-width: 768px) {
+@media (max-width: 640px) {
   .feature-list-card-container {
-    /* previous attempts have not worked due
-     to other conflicting styles or 
-     specificities in CSS. The below solution
-     needs further investigation */
-    flex-flow: row wrap;
+    flex-direction: column;
     gap: 2rem;
   }
 }
 
-/* inbetween md ~ lg */
+/* md */
+
+/* @media (min-width: 768px) {} */
+
+/* base */
 @media (min-width: 900px) {
   .feature-list-heading {
     font-size: 2.8rem;
@@ -105,31 +112,20 @@
     font-size: 0.82rem;
   }
 
-  .feature-list-card-container {
-    flex-flow: row;
-    gap: 2rem;
+  .feature-list-card-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
   }
 
   .card-btn {
     width: 100%;
     height: 35px;
   }
-
-  .btn-1,
-  .btn-2 {
-    /* TODO: hacky fix pending above resolution */
-    margin-top: 3.4rem;
-  }
 }
 
 /* lg */
-@media (min-width: 1024px) {
-  .btn-1,
-  .btn-2 {
-    /* TODO: hacky fix pending above resolution */
-    margin-top: 2.4rem;
-  }
-}
+
+/* @media (min-width: 1024px) {} */
 
 /* xl */
 
@@ -138,12 +134,3 @@
 /* 2xl */
 
 /* @media (min-width: 1536px) {} */
-
-/* 3xl */
-@media (min-width: 2023px) {
-  .btn-1,
-  .btn-2 {
-    /* TODO: hacky fix pending above resolution */
-    margin-top: 1.3rem;
-  }
-}

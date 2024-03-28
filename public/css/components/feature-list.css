@@ -1,0 +1,132 @@
+/* stylelint-disable media-feature-range-notation */
+.feature-list-main-heading {
+  margin-bottom: var(--size-6xl);
+  background-color: var(--clr-background);
+}
+
+.feature-list {
+  margin-top: 2.5rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  background-color: var(--clr-secondary);
+}
+
+.feature-list-card-container {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 3rem;
+}
+
+.feature-list-img-card {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  min-width: 14.625rem;
+  padding: 1rem;
+}
+
+.feature-list-heading {
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: var(--clr-slate50);
+  text-align: center;
+}
+
+.feature-list-subheading {
+  margin-top: 1.2rem;
+  font-size: 0.72rem;
+  color: var(--clr-gray300);
+  letter-spacing: 0.45em;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  margin-top: 1rem;
+  font-size: var(--size-sm);
+  font-weight: 200;
+  color: var(--clr-primary-text);
+}
+
+.card-description {
+  margin-bottom: 1rem;
+  font-size: var(--size-xs);
+  color: var(--clr-primary-text);
+}
+
+.card-btn {
+  width: 100%;
+  height: 14%;
+  margin-top: auto;
+  font-size: var(--size-sm);
+  color: var(--clr-primary-text);
+  text-align: center;
+  background-color: var(--clr-button);
+}
+
+/* xs */
+
+/* @media (width >= 475px) {} */
+
+/* sm */
+@media (min-width: 640px) {
+  .feature-list-card-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .card-btn {
+    width: 100%;
+    height: 35px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .feature-list-card-container {
+    /* previous attempts have not worked due
+     to other conflicting styles or 
+     specificities in CSS. The below solution
+     needs further investigation */
+    flex-flow: row wrap;
+    gap: 2rem;
+  }
+}
+
+/* inbetween md ~ lg */
+@media (min-width: 900px) {
+  .feature-list-heading {
+    font-size: 2.8rem;
+  }
+
+  .feature-list-subheading {
+    font-size: 0.82rem;
+  }
+
+  .feature-list-card-container {
+    flex-flow: row;
+    gap: 2rem;
+  }
+
+  .card-btn {
+    width: 100%;
+    height: 35px;
+  }
+}
+
+/* lg */
+
+/* @media (min-width: 1024px) { } */
+
+/* xl */
+
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+
+/* @media (min-width: 1536px) {} */

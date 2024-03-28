@@ -1,0 +1,157 @@
+/* stylelint-disable media-feature-range-notation */
+.testimonial-main-heading {
+  margin-bottom: var(--size-6xl);
+}
+
+.testimonial-wrapper {
+  margin-top: 2.5rem;
+  padding-top: 3rem;
+}
+
+.testimonial-heading {
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: var(--clr-secondary-text);
+  text-align: center;
+}
+
+.testimonial-subheading {
+  margin-top: 1.2rem;
+  font-size: 0.72rem;
+  color: var(--clr-gray300);
+  letter-spacing: 0.45em;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.card-container {
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  padding: 20px 30px;
+}
+
+.card-heading {
+  margin: 10px 0 15px;
+  font-size: 1.3rem;
+}
+
+.card-description {
+  margin-bottom: 30px;
+  font-size: 0.8rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.2em;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px rgb(0 0 0 / 21.8%);
+  object-fit: cover;
+}
+
+.card-speech-bubble {
+  position: relative;
+  margin-top: 50px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #e7f1f1;
+}
+
+.card-speech-bubble::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  border-width: 0 20px 20px;
+  border-style: solid;
+  border-color: transparent transparent #e7f1f1;
+  transform: translateX(-50%);
+}
+
+.card-speech-bubble-text {
+  font-size: 0.7rem;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+}
+
+/* xxs */
+
+/* @media screen and (min-width: 390px)  */
+
+/* xs */
+@media screen and (max-width: 400px) {
+  .section {
+    margin-top: 1rem !important;
+  }
+}
+
+/* sm */
+
+/* @media (min-width: 640px) {} */
+
+/* md */
+
+/* @media (min-width: 768px) {} */
+
+/* base */
+@media (min-width: 900px) {
+  .card-container:nth-child(3) .card-wrapper {
+    flex-direction: row-reverse;
+  }
+
+  .testimonial-card {
+    padding: 45px;
+  }
+
+  .card-wrapper {
+    column-gap: 2rem;
+    display: flex;
+  }
+
+  .card-heading {
+    margin-bottom: 1.3rem;
+    font-size: 1.5rem;
+  }
+
+  .card-description {
+    margin-bottom: 30px;
+    font-size: 1rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.2em;
+  }
+
+  .card-img {
+    width: 30%;
+    height: 23%;
+  }
+
+  .card-speech-bubble-text {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .testimonial-wrapper {
+    padding-right: 5rem;
+    padding-left: 2rem;
+  }
+}
+
+/* xl */
+
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+
+/* @media (min-width: 1536px) {} */
