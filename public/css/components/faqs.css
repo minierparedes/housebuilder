@@ -26,10 +26,6 @@
 
 .accordion-menu {
   overflow: hidden;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
   max-width: 100%;
   margin: 0 auto;
 }
